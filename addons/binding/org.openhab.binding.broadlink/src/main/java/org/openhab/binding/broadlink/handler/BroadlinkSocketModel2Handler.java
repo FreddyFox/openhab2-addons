@@ -63,7 +63,7 @@ public class BroadlinkSocketModel2Handler extends BroadlinkSocketHandler {
                 return false;
             }
 	    	
-			updateState("powerOn", deriveOnOffStateFromPayload(payload));
+			updateState("powerOn", deriveOnOffStateFromPayload(decodedPayload));
             return true;
         } catch (Exception ex) {
                 logError("Exception while getting status from device", ex);
