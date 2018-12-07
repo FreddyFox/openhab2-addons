@@ -101,6 +101,7 @@
         <description>The Broadlink SP3 is a smart socket with night light and Wi-Fi connectivity.</description>
         <channels>
             <channel id="powerOn" typeId="powerOn" />
+			<channel id="nightLight" typeId="nightLight" />
             <channel id="powerConsumption" typeId="powerConsumption" />
         </channels>
         <config-description>
