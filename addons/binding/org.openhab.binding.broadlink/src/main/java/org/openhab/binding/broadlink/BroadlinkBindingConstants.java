@@ -51,6 +51,7 @@ public class BroadlinkBindingConstants {
     public static final String CHANNEL_LIGHT = "light";
     public static final String CHANNEL_AIR = "air";
     public static final String CHANNEL_POWER_ON = "powerOn";
+    public static final String CHANNEL_NIGHT_LIGHT = "nightLight";
     public static final String CHANNEL_POWER_CONSUMPTION = "powerConsumption";
     public static final String CHANNEL_S1_POWER_ON = "s1powerOn";
     public static final String CHANNEL_S2_POWER_ON = "s2powerOn";
